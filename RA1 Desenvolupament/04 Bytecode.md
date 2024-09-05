@@ -7,6 +7,9 @@ Alguns llenguatges de programació, com **Java** o **C#**, no es compilen direct
 - **Codi intermedi (bytecode):** És un format intermig entre el codi font i el codi màquina. Aquest codi no és executat directament pel sistema operatiu, sinó per una màquina virtual.
 - **Màquina virtual (JVM/.NET CLR):** Un entorn d'execució que interpreta el codi intermedi i el transforma a instruccions que el sistema pot entendre.
 
+<center>
+<img src="./assets/compilacioJ.png" style="width: 90%; max-width: 500px">
+</center>
 
 **Exemple pràctic:**
 - **Java** compila el seu codi font a **bytecode** que s'executa a la **Java Virtual Machine (JVM)**, la qual permet la portabilitat del codi entre diferents sistemes operatius. **Kotlin** també genera un **bytecode** compatible amb les **JVM** de Java.

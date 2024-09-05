@@ -31,6 +31,10 @@ arrel = math.sqrt(16)
 print(arrel)  # Sortida: 4.0
 ```
 
+<center>
+<img src="./assets/compilacioC.png" style="width: 90%; max-width: 500px">
+</center>
+
 ### Tipus d'arxius binaris
 
 Segons la seva funció i sistema operatiu, hi ha els següents tipus d'arxius binaris:

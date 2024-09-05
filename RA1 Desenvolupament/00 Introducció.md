@@ -1,7 +1,5 @@
 # RA1: Elements i eines en el desenvolupament d'un programa informàtic
 
-En aquest curs, es treballen diferents aspectes fonamentals relacionats amb el desenvolupament i execució de programes dins d'un sistema informàtic. 
-
 - 1.1 Reconeix la relació dels programes amb els **components** del sistema informàtic: memòria, processador, perifèrics, entre d'altres.
 
 - 1.2 Identifica les fases de **desenvolupament** d'una aplicació informàtica.

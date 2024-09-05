@@ -20,12 +20,29 @@ Els programes informàtics són conjunts d'instruccions que permeten realitzar d
 ### **Processador (CPU)**
 
 - El **processador** (o **CPU**, Central Processing Unit) és el component principal del sistema que s'encarrega d'executar les instruccions dels programes. Cada instrucció que s'executa dins d'un programa és processada directament per la CPU.
+
+**Tipus de processador**:
+
+Segons l'arquitectura del processador hi ha diferents models de CPU:
+
+- **x32 (x86-32)**: Fa referència a l'arquitectura de 32 bits desenvolupada per Intel, coneguda també com x86. Aquesta arquitectura pot gestionar fins a 4 GB de memòria RAM i era comuna en ordinadors personals durant els anys 90 i 2000. Els sistemes operatius i el programari per a aquesta arquitectura són de 32 bits.
+amd64 (x86-64): També coneguda com x64, és una extensió de 64 bits de l'arquitectura 
+
+- **x86** desenvolupada inicialment per AMD. Aquesta arquitectura pot adreçar molt més espai de memòria (fins a 16 exabytes teòrics) i és compatible amb programari tant de 32 com de 64 bits. Actualment, és l'arquitectura dominant en ordinadors de sobretaula i portàtils.
+
+- **ARM**: És una arquitectura RISC (Reduced Instruction Set Computing) de baix consum energètic, molt popular en dispositius mòbils, tablets i dispositius integrats. ARM es coneix per la seva eficiència energètica, i s'utilitza també en servidors i alguns portàtils moderns, com els MacBook d'Apple que utilitzen els xips Apple Silicon (basats en ARM).
+
+**Important**: Al instal·lar aplicacions cal que escolliu el model de CPU que coincideix amb el vostre ordinador.
+
+**Important**: A Linux a part d'escollir els arxius compatibles amb la CPU, heu d'escollir els paquets compatibles amb la vostra distribució. Per Ubuntu arxius **.deb**
+
+**Funcionament de la CPU**:
+
 - La CPU segueix un cicle bàsic d’operacions: **[Fetch-Decode-Execute](https://adacomputerscience.org/concepts/arch_fe_cycle?examBoard=ada&stage=all)**:
 
 <center>
 <img src="./assets/fetchdecode.svg" style="width: 90%; max-width: 500px">
 </center>
-
 
   - **Fetch (Obtenció):** Recull les instruccions del programa que es troben emmagatzemades a la RAM.
   - **Decode (Descodificació):** Interpreta aquestes instruccions per saber què ha de fer.
