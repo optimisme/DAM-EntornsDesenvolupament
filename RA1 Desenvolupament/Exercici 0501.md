@@ -2,7 +2,7 @@
 
 Escollir un llenguatge de programació no és una decissió trivial. Cada tecnología ofereix desenvolupar amb diferents llenguatges, i l'elecció pot condicionar el producte final. 
 
-Llegeix els següents articles, i escriu les conclusions que n'extreus.
+Llegeix els següents articles, i escriu les conclusions que n'extreus sobre els dipositius Android i iOS.
 
 **ARC vs Garbage collection**:
 

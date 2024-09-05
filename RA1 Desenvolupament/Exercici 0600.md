@@ -1,4 +1,4 @@
-# Exercici 00
+# Exercici 0600
 
 Durant el cicle faràs servir diverses tecnologies relacionades amb el desenvolupament de programes i/o aplicacions web.
 

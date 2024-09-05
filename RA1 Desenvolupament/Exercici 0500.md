@@ -1,4 +1,4 @@
-# Exercici 01
+# Exercici 0500
 
 Durant el cicle faràs servir diversos llenguatges de programació.
 
