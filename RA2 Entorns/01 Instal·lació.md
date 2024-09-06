@@ -216,8 +216,6 @@ net stop MySQL
 net start MySQL
 ```
 
-TODO
-
 **MySQL Workbench**
 ---
 <center>
