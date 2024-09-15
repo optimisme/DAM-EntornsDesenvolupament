@@ -110,6 +110,12 @@ Aquesta és la llista de comandes bàsiques:
 
     `find`: cerca fitxers i carpetes
 
+- **Terminal**:
+
+    `clear`: neteja la consola
+
+    `reset`: reinicia la consola
+
 - **Continguts**:
 
     `more`: mostrar continguts d'un arxiu
