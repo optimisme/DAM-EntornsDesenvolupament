@@ -126,6 +126,22 @@ Entrar dins la carpeta 'abc':
 ```bash
 cd abc
 ```
+Tornar a la carpeta anterior a 'abc':
+```bash
+cd ..
+```
+Mostrar la carpeta on estem:
+```bash
+pwd
+```
+Entrar dins la carpeta 'abc':
+```bash
+cd abc
+```
+Mostrar la carpeta on estem:
+```bash
+pwd
+```
 Llistar els cotinguts de la carpeta:
 ```bash
 ls
