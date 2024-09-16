@@ -80,7 +80,13 @@ sudo apt update && sudo apt install github-desktop
 
 Python és un llenguatge de programació d'alt nivell, interpretat i de codi obert, conegut per la seva senzillesa i llegibilitat. 
 
-- A **Linux** i **macOS** ja hi ha Python disponible
+- A **macOS** ja hi ha Python disponible
+
+- A **Linux** calen els paquets:
+```bash
+sudo apt install pip
+sudo apt install python3-ipykernel
+```
 
 - A **Windows** cal instal·lar-lo a través de la botiga d'aplicacions:
 
