@@ -94,5 +94,23 @@ Sortida:
 ```
 -rw-rw----  1 nomusuari  staff  15 Sep  6 11:02 nou-hl1.txt
 ```
+# Execució de programes
+
+Crea un arxiu **"arxiu.py"** amb el següent contingut
+```python
+#!/usr/bin/env python3
+
+print("hola")
+```
+Dona-li permissos d'execució:
+```bash
+chmod u+x arxiu.py
+```
+
+Fes-lo anar amb **"./"**:
+```bash
+./arxiu.py
+```
+
 
 
