@@ -54,32 +54,32 @@ Les opcions de debug són:
 <table>
     <tr>
         <td><img src="./assets/dbgIconContinue.png"></td>
-        <td>Continue</td>
+        <td><b>Continue</b></td>
         <td>L'acció continua fins al següent breakpoint o final del programa</td>
     </tr>
     <tr>
         <td><img src="./assets/dbgIconOver.png"></td>
-        <td>Step over</td>
+        <td><b>Step over</b></td>
         <td>Salta a la linia següent, permet debugar linia a linia</td>
     </tr>
     <tr>
         <td><img src="./assets/dbgIconInto.png"></td>
-        <td>Step into</td>
+        <td><b>Step into</b></td>
         <td>Si la línia actual conté la crida a una funció, entra dins la funció</td>
     </tr>
     <tr>
         <td><img src="./assets/dbgIconOut.png"></td>
-        <td>Step out</td>
+        <td><b>Step out</b></td>
         <td>Si la línia està dins d'una funció, surt de la funció</td>
     </tr>
     <tr>
         <td><img src="./assets/dbgIconRestart.png"></td>
-        <td>Restart</td>
+        <td><b>Restart</b></td>
         <td>Reinicia l'execució del programa</td>
     </tr>
     <tr>
         <td><img src="./assets/dbgIconStop.png"></td>
-        <td>Restart</td>
+        <td><b>Restart</b></td>
         <td>Atura l'execució del programa</td>
     </tr>
 </table>
