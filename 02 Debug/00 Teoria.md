@@ -87,6 +87,8 @@ Les opcions de debug són:
 
 Quan estàs aturat en un **breakpoint**, posar el mouse sobre una variable, mostra el seu valor.
 
+La línia que s'executarà a continuació apareix de color groc.
+
 En aquest exemple, el **debugger** està aturat a la linia número 8, i hem posat el mouse a sobre de la **x**, per aquest motiu es veu un "10" al requadre sobre de la **x**.
 
 <center>
@@ -94,4 +96,27 @@ En aquest exemple, el **debugger** està aturat a la linia número 8, i hem posa
 </center>
 
 Cal tenir en compte, que en aquest moment, **y** encara no té valor. Si posem el mouse sobre de la **y** encara no apareix "5".
+
+## Opcions avançades
+
+Es poden posar condicions als **breakpoints** per tal que els ignori si es compleixen certes condicions.
+
+- Amb el botó dret, fent click al **breakpoint** escollir **"edit breakpoint"**
+
+<center>
+<img src="./assets/dbg0306.png" style="width: 90%; max-width: 350px">
+</center>
+
+- Posar la condició que fa que el breakpoint s'aturi. En el següent exemple, només s'atura si **"x < 15"**
+
+<center>
+<img src="./assets/dbg0307.png" style="width: 90%; max-width: 350px">
+</center>
+
+Els **breakpoints** amb condicions apareixen amb un símbol **"="** dins del cercle vermell.
+
+<center>
+<img src="./assets/dbg0308.png" style="width: 90%; max-width: 350px">
+</center>
+
 
