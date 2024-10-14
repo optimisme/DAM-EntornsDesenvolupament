@@ -234,6 +234,15 @@ Per actualitzar els arxius locals, amb les modificacions remotes:
 git pull
 ```
 
+Per, a més esborrar arxius i carpetes que ja no existeixen en remot:
+
+```bash
+git fetch --prune
+git stash
+git pull
+git stash clear
+```
+
 ## Historial de modificacions a GitHub Desktop
 
 La pestanya **History** de *GitHub Desktop* també ens mostra l'historial de modificacions.
