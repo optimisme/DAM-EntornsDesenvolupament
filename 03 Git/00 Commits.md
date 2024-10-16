@@ -1,5 +1,9 @@
 # Git
 
+<center>
+<img src="./assets/git.png" style="width: 350px; max-width: 350px">
+</center>
+
 Un projecte **Git** guarda l'historial de canvis d'un projecte i permet la col·laboració de diversos desenvolupadors.
 
 - **GitHub** és una plataforma web, que permet treballar amb projectes **Git**
@@ -33,7 +37,7 @@ helloGit.py
 Edita l'arxiu per fer un 
 
 ```python
-print("Hello Git!");
+print("Hello Git!")
 ```
 
 <center>
