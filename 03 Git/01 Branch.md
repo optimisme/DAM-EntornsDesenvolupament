@@ -140,3 +140,35 @@ git branch -D testY
 ```bash
 git push origin --delete testY
 ```
+
+## Treball local i remot (opció Branch)
+
+Crea una nova branca per al treball local (si no ho has fet ja):
+
+- Crea una nova branca per al treball local
+
+```bash
+git checkout -b exercicis
+git add Java-R/Teoria/src/main/java/com/exercici*
+git commit -m "Guardar exercicis locals"
+```
+
+Per actualitzar els canvis remots:
+
+- *git checkout main*: Torna a la branca principal
+- *git pull origin main*: Descarrega els canvis remots
+- *git checkout exercicis* i *git merge main*: Fusiona cap a la branca local
+
+```bash
+git checkout main
+git pull origin main
+git checkout exercicis
+git merge main
+```
+
+Resol manualment els conflictes
+
+```bash
+git add Java-R/Teoria/src/main/java/com/fitxer_afectat
+git commit -m "Resol conflictes"
+```

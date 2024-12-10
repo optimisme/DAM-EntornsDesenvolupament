@@ -12,3 +12,19 @@ Les comandes principals són:
 - **git stash pop**: Recupera els canvis emmagatzemats en l'última posició i els elimina de l'stash.
 - **git stash drop**: Elimina una entrada específica de l'stash.
 - **git stash clear**: Elimina totes les entrades de l'stash.
+
+## Treball local i remot (opció Stash)
+
+Quan es vol descarregar canvis remots, sense perdre el treball local amb **stash** es poden fer aquests passos:
+
+- *git stash*: Desa tots els canvis locals sense confirmar (inclosos els fitxers nous).
+- *git pull origin main*: Integra els teus canvis més recents del repositori remot.
+- *git stash pop*: Recupera stash, si hi ha conflictes cal que es resolguin.
+
+```bash
+git stash
+git pull origin main
+git stash pop
+git add Java-R/Teoria/src/main/java/com/exercici*
+git commit -m "Mantenir exercicis locals"
+```
