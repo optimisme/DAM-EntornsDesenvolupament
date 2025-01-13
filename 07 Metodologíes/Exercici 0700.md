@@ -1,4 +1,4 @@
-# Exercici 04
+# Exercici 0700
 
 En un equip de 3 alumnes, mireu el següent vídeo de youtube:
 

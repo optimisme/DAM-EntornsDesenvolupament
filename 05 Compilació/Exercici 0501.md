@@ -1,4 +1,5 @@
-# Exercici 03
+# Exercici 0501
+
 
 Escollir un llenguatge de programació no és una decissió trivial. Cada tecnología ofereix desenvolupar amb diferents llenguatges, i l'elecció pot condicionar el producte final. 
 

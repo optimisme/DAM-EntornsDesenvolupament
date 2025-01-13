@@ -1,4 +1,4 @@
-# Exercici 06
+# Exercici 0702
 
 **Tech4All** és una empresa de desenvolupament de software que treballa principalment amb startups per crear aplicacions mòbils i solucions web personalitzades. Recentment han rebut un projecte per desenvolupar una aplicació de gestió de tasques per a equips, similar a aplicacions com Trello o Asana.
 
