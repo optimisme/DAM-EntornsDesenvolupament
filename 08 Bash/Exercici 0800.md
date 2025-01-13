@@ -26,8 +26,8 @@ Escriu un script **scr0800C_fitxers.sh** que mostri els 5 fitxers més grans de 
 
 Requisits:
 
-- Ús de comandes del sistema (du, sort i head).
-- Fer servir pipes (|) per combinar comandes. 
+- Ús de comandes del sistema ([du](https://man7.org/linux/man-pages/man1/du.1.html), [sort](https://man7.org/linux/man-pages/man1/sort.1.html) i [head](https://man7.org/linux/man-pages/man1/head.1.html)).
+- Fer servir [pipes |](https://en.wikipedia.org/wiki/Pipeline_(Unix)) per combinar comandes. 
 
 **Part D**: Comptar el nombre d'arxius en subcarpetes
 
