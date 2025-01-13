@@ -168,10 +168,10 @@ Al executar l'script anterior:
 
 Valors importants:
 
-- **$0** indica el nom de l'script
-- **$#** retorna el nombre total de paràmetres
-- **$@** retorna tots els paràmetres com una llista separada per espais
-- $* Similar a $@, però tracta tots els paràmetres com una sola cadena
+- **\$0** indica el nom de l'script
+- **\$#** retorna el nombre total de paràmetres
+- **\$@** retorna tots els paràmetres com una llista separada per espais
+- **\$*** similar a $@, però tracta tots els paràmetres com una sola cadena
 
 ```bash
 #!/bin/bash
@@ -220,3 +220,29 @@ fi
 
 echo "Script executat amb privilegis de superusuari."
 ```
+
+## Data i hora
+
+Per obtenir la data i hora des de Bash, es fa servir la comanda date amb l'opció + i un format personalitzat:
+
+```bash
+#!/bin/bash
+
+# Obtenir data i hora actual
+data_hora=$(date +"%Y-%m-%d_%H-%M-%S")
+echo "Data i hora actual: $data_hora"
+
+# Crear una carpeta amb aquesta data
+mkdir "backup_$data_hora"
+echo "S'ha creat la carpeta: backup_$data_hora"
+```
+
+**Format**:
+
+- **%Y**: Any complet (ex. 2025)
+- **%m**: Mes en format numèric (01-12)
+- **%d**: Dia del mes (01-31)
+- **%H**: Hora en format 24 hores (00-23)
+- **%M**: Minuts (00-59)
+- **%S**: Segons (00-59)
+

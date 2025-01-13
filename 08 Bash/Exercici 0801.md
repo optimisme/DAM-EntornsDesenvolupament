@@ -16,7 +16,8 @@ L'script ha de rebre com a paràmetres:
 
 ## Requisits:
 
-- Si les carpetes no existeixen, l'script ha de mostrar un missatge d'error i sortir.
+- Si la carpeta d'origen no existeix, l'script ha de mostrar un missatge d'error i sortir.
+- Si la carpeta destí no existeix, l'ha de crear
 - Cada còpia s'ha de guardar en una subcarpeta dins de la carpeta de destí amb un nom basat en la data i hora (backup_YYYY-MM-DD_HH-MM-SS).
 - Els fitxers que no han canviat entre còpies s'han de substituir per enllaços simbòlics.
 - Els fitxers nous o modificats s'han de copiar completament.
