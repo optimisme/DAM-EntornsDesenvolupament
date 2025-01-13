@@ -1,6 +1,10 @@
 # Exercici 0801
 
-Escriu un script **Bash** que faci còpies de seguretat d'una carpeta d'origen cap a una carpeta de destí, tal i com ho fa **[Time Machine](https://en.wikipedia.org/wiki/Time_Machine_%28macOS%29)** de *macOS*:
+Escriu un script **Bash** que faci còpies de seguretat d'una carpeta d'origen cap a una carpeta de destí, tal i com ho fa **[Time Machine](https://en.wikipedia.org/wiki/Time_Machine_%28macOS%29)** de *macOS*. Aprofitant la comanda [rsync](https://linux.die.net/man/1/rsync) de UNIX.
+
+Amb *rsync* es pot evitar crear duplicats d'arxius que ja existeixen al *backup*, fent servir enllaços a través del paràmetre **--link-dest**.
+
+Pots fer servir [aquest article](https://samuelhewitt.com/blog/2018-06-05-time-machine-style-backups-with-rsync) com a base, tot i que els requeriments de l'exercici són lleugerament diferents i ho hauràs d'adaptar. 
 
 ## Paràmetres d'entrada:
 
@@ -30,3 +34,5 @@ L'script ha de rebre com a paràmetres:
 - Missatge d'error en cas de problemes amb permisos o carpetes.
 
 Les còpies de seguretat hauràn de permetre accedir a l'estat de la carpeta en un moment del temps determinat.
+
+Fes servir aquest article 

@@ -6,7 +6,7 @@ Sistemes de còpies de seguretat com **[Time Machine](https://en.wikipedia.org/w
 
 Això vol dir que es guarden les modificacions en una linia de temps, per recuperar l'estat d'un disc **en un moment específic**.
 
-Es fa amb enllaços simbòlics [soft links](https://en.wikipedia.org/wiki/Symbolic_link) per evitar duplicar fitxers que no han canviat, estalviant espai i mantenint una estructura fàcil de navegar.
+Es fa amb enllaços [links](https://en.wikipedia.org/wiki/Symbolic_link) per evitar duplicar fitxers que no han canviat, estalviant espai i mantenint una estructura fàcil de navegar.
 
 ## Avantatges
 
