@@ -28,3 +28,5 @@ L'script ha de rebre com a paràmetres:
 - Carpeta creada per a la còpia.
 - Nombre de fitxers copiats i enllaçats.
 - Missatge d'error en cas de problemes amb permisos o carpetes.
+
+Les còpies de seguretat hauràn de permetre accedir a l'estat de la carpeta en un moment del temps determinat.
